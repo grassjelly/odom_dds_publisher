@@ -14,16 +14,19 @@
     ```sh
     $ rosrun odom_dds_publisher velocities_publisher
     ```
-3. Run DDS Subscriber.
+4. Run DDS Subscriber.
 
     ```sh
     $ rosrun odom_dds_publisher velocities_subscriber
     ```
 
 ### Notes:
-DDS Domain ID: 0
-DDS Topic Name: "velocities"
-Published Data Structure:
+1. DDS Domain ID: 0
+
+2. DDS Topic Name: "velocities"
+
+3. Published Data Structure:
+
 struct Velocities
 {
     string<10> robot_id;
@@ -31,3 +34,4 @@ struct Velocities
     float linear_velocity_y;
     float angular_velocity_z;
 };
+
