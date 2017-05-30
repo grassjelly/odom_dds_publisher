@@ -27,11 +27,11 @@
 
 3. Published Data Structure:
 
-struct Velocities
-{
-    string<10> robot_id;
-    float linear_velocity_x;
-    float linear_velocity_y;
-    float angular_velocity_z;
-};
+struct Velocities  
+{  
+    string<10> robot_id;  
+    float linear_velocity_x;  
+    float linear_velocity_y;  
+    float angular_velocity_z;  
+};  
 
