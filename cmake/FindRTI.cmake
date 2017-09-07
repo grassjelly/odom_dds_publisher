@@ -60,10 +60,12 @@ ENDMACRO(RTI_REPORT_NOT_FOUND)
 #
 # TODO: Add standard Windows search locations for RTI.
 LIST(APPEND RTI_CHECK_INCLUDE_DIRS
+  /home/ubuntu/rti_connext_dds-5.2.3/include
   /home/juan/rti_connext_dds-5.2.3/include
   /opt/RTI/ndds.5.1.0/include
   /root/RTI/ndds.5.0.0/include)
 LIST(APPEND RTI_CHECK_LIBRARY_DIRS
+  /home/ubuntu/rti_connext_dds-5.2.3/lib/armv6vfphLinux3.xgcc4.7.2
   /home/juan/rti_connext_dds-5.2.3/lib/i86Linux2.6gcc4.4.5
   /home/juan/rti_connext_dds-5.2.3/lib/x64Linux3gcc4.8.2
   /opt/RTI/ndds.5.1.0/lib/x64Linux3gcc4.8.2
